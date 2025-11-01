@@ -1,18 +1,8 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/java:17",
-    "features": {
-        "ghcr.io/devcontainers-contrib/features/apache-spark:2": {
-            "version": "3.5.0"
-        },
-        "ghcr.io/devcontainers/features/scala:1": {
-            "version": "2.13.11"
-        }
-    },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "scalameta.metals"
-            ]
-        }
+  "image": "bitnami/spark:3.5.0",  // Pre-built Spark image
+  "customizations": {
+    "vscode": {
+      "extensions": ["scalameta.metals"]
     }
+  }
 }
